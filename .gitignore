@@ -14,3 +14,29 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Ignore Codeblocks temp files
+*.depend
+*.layout
+
+# Not interested in bin or obj folders
+bin/*
+obj/*
+*.cbTemp
+
+# Ignore backup files from ubuntu
+*~
